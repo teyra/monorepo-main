@@ -1,6 +1,6 @@
 {
   "name": "monorepo-main",
-  "private": true,
+  "private": false,
   "type": "module",
   "devDependencies": {
     "@changesets/cli": "^2.27.5",
@@ -41,5 +41,6 @@
     "*.{json,ts,tsx,js,md}": [
       "npx prettier --write"
     ]
-  }
+  },
+  "version": "0.1.2"
 }
