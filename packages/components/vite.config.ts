@@ -11,7 +11,7 @@ export default defineConfig({
       name: 'components',
     },
     rollupOptions: {
-      external: ['@mirco/acomponents'],
+      external: ['@mirco/components'],
     },
   },
 });

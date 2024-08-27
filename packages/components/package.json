@@ -1,7 +1,7 @@
 {
   "name": "@mirco/components",
   "private": false,
-  "version": "0.1.2",
+  "version": "0.2.0",
   "keywords": [
     "components"
   ],
@@ -11,7 +11,7 @@
   "main": "dist/components.umd.cjs",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "build": "vite build && tsc -p build.tsconfig.json --outDir dist",
     "preview": "vite preview"
   },
   "dependencies": {
