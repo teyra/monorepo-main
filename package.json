@@ -1,6 +1,6 @@
 {
-  "name": "monorepo-main",
-  "private": false,
+  "name": "root",
+  "private": true,
   "type": "module",
   "devDependencies": {
     "@changesets/cli": "^2.27.5",
