@@ -1,13 +1,14 @@
 {
-  "name": "@mirco/components",
-  "version": "0.0.1",
+  "name": "vitx-design",
+  "version": "0.0.2",
+  "private": false,
   "keywords": [
-    "components"
+    "vitx-design"
   ],
   "type": "module",
   "types": "dist/index.d.ts",
-  "module": "dist/components.js",
-  "main": "dist/components.umd.cjs",
+  "module": "dist/vitx-design.js",
+  "main": "dist/vitx-design.umd.cjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc -p build.tsconfig.json --outDir dist",
@@ -28,8 +29,8 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/components.js",
-      "require": "./dist/components.umd.cjs"
+      "import": "./dist/vitx-design.js",
+      "require": "./dist/vitx-design.umd.cjs"
     }
   }
 }

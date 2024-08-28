@@ -1,5 +1,6 @@
 {
   "name": "root",
+  "private": true,
   "type": "module",
   "devDependencies": {
     "@changesets/cli": "^2.27.5",
@@ -20,7 +21,7 @@
     "prettier": "^3.2.5"
   },
   "scripts": {
-    "build": "pnpm -F components run build",
+    "build": "pnpm -F vitx-design run build",
     "ci:test": "pnpm -F @mirco/* run ci:test",
     "publish:all": "pnpm publish -r",
     "publish:all:next": "pnpm publish -r --tag next",
@@ -40,6 +41,5 @@
     "*.{json,ts,tsx,js,md}": [
       "npx prettier --write"
     ]
-  },
-  "version": "0.1.2"
+  }
 }
